@@ -1,0 +1,4 @@
+FROM geostreams/geostreams
+
+COPY docker/entrypoint.sh /home/geostreams/bin/entrypoint.sh
+COPY conf/reference.conf /home/geostreams/conf/application.conf
